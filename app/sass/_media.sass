@@ -1,0 +1,370 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1820px)
+  .product-modal .modal-dialog
+    max-width: 98%
+
+
+
+@media only screen and (max-width: 1680px)
+  .product-modal-details-gallery
+    padding: 0 0 0 20px
+    width: calc(100% - 570px)
+
+  .product-modal-details-box
+    max-width: 570px
+
+  .status
+    margin: 0 20px 0 auto
+
+  .product-modal-details-gallery__item
+    padding: 20px
+
+  .product-modal-details-gallery__item-info
+    padding: 30px
+
+    .image
+      padding: 0 20px 0 0
+
+
+  .timeline:before
+    width: calc(100% - 220px)
+
+
+  .product-characteristics
+    margin: 20px 0
+
+  .product-card__img
+    height: 200px
+
+  .product-card__body
+    height: calc(100% - 200px)
+
+  .footer-box .btn
+    padding: 10px
+
+@media only screen and (max-width: 1450px)
+  .home-information
+    padding: 200px 29px 30px
+
+  .timeline:before
+    width: calc(100% - 195px)
+
+  .footer-menu
+    line-height: normal
+    li
+      margin: 0 0 10px
+
+@media only screen and (max-width: 1200px)
+  .timeline:before
+    width: calc(100% - 160px)
+
+  .floor
+    font-size: 18px
+
+  header
+    padding: 20px 0
+
+
+  .home-company
+    width: 100%
+    justify-content: center
+    padding: 10px
+
+  header .list-social
+    margin: 0 20px 0 0
+
+  .schedule
+    font-size: 14px
+    margin: 0 0 0 20px
+
+
+  .footer-box
+    .btn
+      font-size: 14px
+      height: 40px
+
+  .footer-top
+    padding: 0 0 20px
+
+
+  .footer-bottom
+    padding: 30px 0 0
+
+  .modal-dialog-scrollable .modal-content
+    overflow: hidden
+    overflow-y: auto
+
+  .modal-header .close
+    width: 40px
+    height: 40px
+    top: 10px
+    right: 10px
+    padding: 10px
+
+  .modal-content
+    padding: 40px
+
+
+  .modal-dialog
+    padding: 0
+
+  .product-modal-details-box
+    max-width: none
+
+  .product-modal-details-gallery
+    width: 100%
+    padding: 0
+
+  .object-details__list li
+    max-width: 24%
+    width: 100%
+
+
+  .news-card__img
+    height: 260px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  header
+    .list-social
+      display: none
+
+  .btn-burger
+    display: flex
+
+  .home-information
+    padding: 20px
+    margin: 0
+    border-radius: 0
+
+  .home-map
+    margin: 0
+
+  .timeline
+    &:before
+      width: calc(100% - 140px)
+
+  .suggestions
+    padding: 50px 0
+
+  .product-modal-title h3
+    font-size: 30px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  .suggestions-slider .product-card
+    width: 280px
+
+  .timeline
+    &:before
+      display: none
+
+  .timeline-box
+    padding: 0 0 40px
+    font-size: 16px
+
+    br
+      display: none
+
+  .mb-20
+    margin-bottom: 20px
+
+  .schedule
+    display: none
+
+  h1
+    font-size: 20px
+    margin: 0 0 20px
+
+  .home-map
+    height: 500px
+
+  .product-modal-title
+    h3
+      font-size: 20px
+    .address
+      font-size: 16px
+
+  .product-modal .modal-header
+    padding: 0 20px
+    margin: 0 0 20px
+
+  .product-modal-details, .recommended, .availability-slider
+    padding: 0 20px
+
+
+  .slick-arrow
+    width: 40px
+    height: 40px
+
+  h2
+    font-size: 20px
+    margin: 0 0 20px
+
+  footer .phone
+    font-size: 18px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  .suggestions-slider__nav
+    justify-content: center
+
+  .suggestions-slider .product-card
+    margin: 0
+    width: 100%
+
+  .suggestions-slider
+    min-width: auto
+
+  .home-company-logo
+    height: 50px
+    width: 120px
+    margin: 0 0 10px
+    &:last-child
+      margin: 0 0 10px
+
+  .home-company
+    justify-content: space-around
+
+  .product-card
+    margin: 0 auto
+
+  .footer-box__bottom
+    margin: 20px 0 0
+
+  .address
+    padding: 0
+
+  .footer-box
+    h3
+      margin: 0 0 20px
+      font-size: 18px
+
+  footer
+    padding: 30px 0 20px
+
+  .phone
+    font-size: 18px
+
+  .list-social
+    li
+      margin: 0 10px 0 0
+
+  .modal-content
+    padding: 40px 30px
+
+  .modal-title
+    font-size: 20px
+
+  .description-modal
+    font-size: 16px
+    margin: 0 auto 20px
+
+  .modal-header
+    .close
+      width: 24px
+      height: 24px
+      padding: 6px
+
+  .object-details__list li
+    max-width: none
+    width: 49%
+    margin: 0 0 20px
+
+  .product-modal-details-box h3
+    margin: 0 0 20px
+
+  .product-modal-title
+    width: 100%
+    flex-direction: column
+    align-items: flex-start
+    h3
+      margin: 0 0 10px
+
+  .photo-object
+    margin: 0 0 30px
+
+  .product-modal .modal-content
+    padding: 40px 0
+
+  .object-details__list span
+    font-size: 22px
+
+  .list-object, .status
+    font-size: 14px
+
+  .status
+    min-width: 80px
+    margin: 0 auto 0 0
+
+  .list-object li
+    padding: 10px 0 10px 40px
+    flex-wrap: wrap
+    h4
+      width: 100%
+      margin: 7px 0 0
+    &:before
+      margin: 0
+      position: absolute
+      left: 0
+      top: 10px
+
+  .floor
+    padding: 10px
+
+  .product-modal-details-gallery__item-info
+    flex-wrap: wrap
+    .image
+      max-width: none
+      padding: 0
+      margin: 0 0 10px
+
+  .characteristics
+    margin: 20px 0
+
+  .slick-arrow
+    width: 40px
+    height: 40px
+
+  header .btn
+    display: none
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px)
+  .btn-burger
+    margin: 0 0 0 auto
+
+  .home-map
+    height: 400px
+
+  .phone
+    font-size: 16px
+
+  .links-vk
+    width: 20px
+    height: 20px
+
+  .links-fb
+    height: 15px
+
+  .links-youtube
+    height: 20px
+    width: 20px
+
+  .link-instagram
+    width: 20px
+    height: 18px
+
+  .modal-content
+    padding: 40px 25px
+
+  .status
+    width: 100%
+    margin: 0 auto 10px
+
+  footer .phone
+    font-size: 16px
